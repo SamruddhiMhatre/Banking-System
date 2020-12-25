@@ -1,0 +1,13 @@
+.main-edit
+{
+	background-color: white;
+	border: 3px solid;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.inner_container
+{
+	width: 400px;
+	margin: 0 auto;
+}

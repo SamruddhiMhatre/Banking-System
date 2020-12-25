@@ -1,0 +1,175 @@
+<html>
+<head>
+	<title>Form</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<style>
+
+ input[type=Submit], input[type=Reset] {
+    background-color: #4CAF50;
+    border-color:#1C39BB  
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+form {
+        border:1.5px solid #008CBA;
+	    padding: 1px;
+		font-size: 18px;
+		
+		width: 400px;	
+	}
+
+	.container{
+	color:#000080;
+	background:#FFF;
+	font-size: 30px;
+	
+min-height: 300px;
+   max-width:400px;
+     
+	}
+
+	sub{
+		font-size: 10px;
+	}
+
+	input
+         {
+		display: inline-block;
+		padding: 1px;	
+		border: #000 1px solid ;
+		font-size: 15pt;
+	}
+
+	body
+         {
+		background-image: url("Bank.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family:  sans-serif;
+		text-align: center;
+		
+	}
+
+
+	#Submit
+{
+	background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 75px;
+
+}
+
+    #Reset
+{
+	background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height:75px;
+
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #008CBA;
+  color: white;
+}
+.topnav-right {
+  float: right;
+}
+.container{
+	width: 100%;
+	text-align: center;
+               
+}
+
+.left {
+float: left;
+border-radius: 70%;
+}
+
+
+
+</style>
+
+<body>
+
+
+<div class="topnav">
+  <a class="active" href="bank.html">Home</a>
+  <a href="#contact">022-65650329</a>
+  <div class="topnav-right">
+    <a href="show.php">View Database</a>
+  <a href="edit.php">Edit Database</a>
+    <a href="exportreport.php">Generate Report</a>
+  </div>
+</div>
+<br><br>
+<center>
+
+<legend style="font-size:70px; color:white; text-align:center; font-family:lucida sans;background-color:#55ACEE;border:0px solid;box-shadow: 5px 5px 1px gray; text-shadow: 1px 1px 5px gray;">STANDARD BANK<img src = "sbank.jpg" width="85" height="80" align="left" style="border-radius: 60%">
+</legend>
+<br><br><br><br><br><br><br>
+
+
+<div class='container'>
+<center>
+	<form action="login.php" method="post" align="center" onsubmit="return validate(this)">
+ <div class="container"> <center> <br>
+		Customer ID : <input type="text" style="color:#1C39BB" name="Customer_ID" required ><br><br>
+  	        
+		Password : <input type="password" style="color:#1C39BB" name="pass" required><br><br><br>
+
+		<button id = "Submit" type="Submit" name="Submit"> Submit </button>
+        <button id = "Submit" type="Reset" name="Reset"> Cancel </button>
+
+</div>
+
+	</form>
+</center>
+</div>
+</body>
+</html>
+
