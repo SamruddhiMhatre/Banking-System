@@ -4,14 +4,14 @@ A simple banking website that consists a user and admin login.  The webpage enab
 File description:
 
 bank.html - UI for bank website using html and css
-conn.php - php code for connecting database to the server
-login.php - php code for user login
-show.php - php code for displaying the database
-export.php - php code for exporting user data into an excel file
-
-To implement edit operations such as insert, delete and update on the user data in the bank database:
-
+\nconn.php - php code for connecting database to the server
+\nlogin.php - php code for user login
+\nshow.php - php code for displaying the database
+\nexport.php - php code for exporting user data into an excel file
+\n
+\nTo implement edit operations such as insert, delete and update on the user data in the bank database:
+\n
 insert.php - php code for insertion of attribute values in tables, i.e. inserts user data
-delete.php - php code for deletion of attribute values in tables, i.e. deletes user data
-update.php - php code for updation of attribute values in tables, i.e. updates user data
+\ndelete.php - php code for deletion of attribute values in tables, i.e. deletes user data
+\nupdate.php - php code for updation of attribute values in tables, i.e. updates user data
 
