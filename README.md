@@ -13,5 +13,7 @@ To implement edit operations such as insert, delete and update on the user data 
 
 insert.php - php code for insertion of attribute values in tables, i.e. inserts user data <br />
 delete.php - php code for deletion of attribute values in tables, i.e. deletes user data <br />
-update.php - php code for updation of attribute values in tables, i.e. updates user data <br />
+update.php - php code for updation of attribute values in tables, i.e. updates user data <br /> <br />
+
+![alt text](https://github.com/SamruddhiMhatre/Banking-System/blob/main/Website%20Screenshots/homepage.png)
 
